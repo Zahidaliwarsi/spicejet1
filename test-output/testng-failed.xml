@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="firefoxTestRunner(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.spicejet.ticket.PracticeTest1">
+        <methods>
+          <include name="test3" invocation-numbers="0"/>
+          <include name="test2" invocation-numbers="0"/>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.spicejet.ticket.PracticeTest1 -->
+    </classes>
+  </test> <!-- firefoxTestRunner(failed) -->
+  <test thread-count="5" parallel="classes" name="chromeTestRunner(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.spicejet.ticket.PracticeTest3">
+        <methods>
+          <include name="test3" invocation-numbers="0"/>
+          <include name="test2" invocation-numbers="0"/>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.spicejet.ticket.PracticeTest3 -->
+      <class name="com.spicejet.ticket.TestPractice2">
+        <methods>
+          <include name="test2" invocation-numbers="0"/>
+          <include name="test1" invocation-numbers="0"/>
+          <include name="test3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.spicejet.ticket.TestPractice2 -->
+    </classes>
+  </test> <!-- chromeTestRunner(failed) -->
+</suite> <!-- Failed suite [Suite] -->
