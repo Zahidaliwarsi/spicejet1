@@ -4,7 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.spicejet.ticket.PracticeTest1"/>
-      <class name="com.spicejet.ticket.TestPractice2"/>
       <class name="com.spicejet.ticket.PracticeTest3"/>
       <class name="com.spicejet.ticket.PracticeClass"/>
       <class name="com.spicejet.ticket.CountryDropdown"/>
