@@ -12,7 +12,7 @@ import com.spicejet.genericUtility.WebDriverUtility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PracticeTest3 {
-	@Parameters("browser")
+	
 	@Test(groups="sanity")
 	public void test1(String browser)
 	{
@@ -29,7 +29,7 @@ public class PracticeTest3 {
 		}
 		
 	}
-	@Parameters("browser")
+	
 	@Test(groups="sanity")
 	public void test2(String browser)
 	{
@@ -46,7 +46,7 @@ public class PracticeTest3 {
 		}
 		
 	}
-	@Parameters("browser")
+	
 	@Test
 	public void test3(String browser)
 	{

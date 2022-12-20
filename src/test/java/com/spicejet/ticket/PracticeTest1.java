@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PracticeTest1 {
 	WebDriver driver;
-	@Parameters("browser")
+	
 	@Test(groups="sanity")
 	public void test1(String browser)
 	{
@@ -29,7 +29,7 @@ public class PracticeTest1 {
 			driver = new FirefoxDriver();	
 		}
 	}
-	@Parameters("browser")
+	
 	@Test(groups="sanity")
 	public void test2(String browser)
 	{
@@ -45,7 +45,7 @@ public class PracticeTest1 {
 			driver = new FirefoxDriver();	
 		}
 	}
-	@Parameters("browser")
+	
 	@Test(groups="sanity")
 	public void test3(String browser)
 	{
